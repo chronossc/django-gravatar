@@ -5,7 +5,7 @@ django-gravatar is a Django application that exports template tags to convert
 email addresses to Gravatar-stored avatars, as dynamically generated hyperlinks.
 
 This repo is intended to have some customizations, like gravatar profile support and caching.
-See <a href="http://github.com/DrMegahertz/django-gravatar/tree/cache">http://github.com/DrMegahertz/django-gravatar/tree/cache</a> for some local file caching implemented.
+Go to end of doc to see some interesting coplementary info & links :)
 
 By including the app, `django_gravatar`, in your settings module, you can
 load a custom templatetags module, `gravatar_tags`, to generate a Gravatar URL
@@ -64,11 +64,19 @@ harness:
 TODO
 ====
 
+- Add profile support
+- Add caching support
+- Add some pre-validation to know if avatar/profile exists
+
 Links
 =====
 
 Visit the main Mercurial [repository](http://bitbucket.org/santa4nt/django-gravatar)
 at bitbucket.
 
-Visit the mirror Git [repository](http://github.com/santa4nt/django-gravatar)
+Visit the original (not my) mirror Git [repository](http://github.com/santa4nt/django-gravatar)
 at github.
+
+Visit [DrMegahertz repo](http://github.com/DrMegahertz/django-gravatar/tree/cache) for some local file caching implemented.
+
+Visit [Lance McNearney article](http://1l.to/md3/) to check some validation if is a valid gravatar.
